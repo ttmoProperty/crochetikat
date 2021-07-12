@@ -1,0 +1,7 @@
+<div class="product-detail">
+    <img src="{{ product.item_image.url }}">
+    <h1>{{ product.item_name }}</h1>
+    <h2><a href="{{ product.category.get_absolute_url }}">
+        {{ product.category }}</a></h2>
+    <p class="price">{{ product.item_id }}</p>
+</div>
